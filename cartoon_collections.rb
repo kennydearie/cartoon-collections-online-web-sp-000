@@ -24,8 +24,7 @@ def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-    return true if cheddar.include?(str)
- # array {|cheddar|cheese_types == "cheddar"}
+  array {|cheddar|cheese_types == "cheddar"}
  return true if cheddar.include?(str)
    
 
