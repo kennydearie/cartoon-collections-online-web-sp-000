@@ -30,7 +30,7 @@ def find_the_cheese(array)
 
   #array.find{|gouda|cheese_types== "gouda"}
  # array.find{|camembert|cheese_types== "camembert"}
-   end 
+  # end 
   #return Array
   
     
