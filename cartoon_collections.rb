@@ -23,11 +23,10 @@ end
 def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  do |cheddar|
-  cheddar.each do |line|
-    return true if line.include?(str)
+  
+    return true if cheddar.include?(str)
  # array {|cheddar|cheese_types == "cheddar"}
- # array
+ return true if cheddar.include?(str)
    
 
   #array.find{|gouda|cheese_types== "gouda"}
