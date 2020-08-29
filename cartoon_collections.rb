@@ -26,6 +26,7 @@ def find_the_cheese(array)
   cheese_types.include?("cheddar")
   array.find{|cheddar|cheese_types == "cheddar"}
   return 
+else
   #array.find{|gouda|cheese_types== "gouda"}
  # array.find{|camembert|cheese_types== "camembert"}
    end 
